@@ -168,6 +168,9 @@ PRODUCT_COPY_FILES += \
 # GameBar Performance Overlay
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
 
+# GMS
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+
 # Graphics
 TARGET_USES_VULKAN = true
 
