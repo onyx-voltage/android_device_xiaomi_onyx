@@ -7,3 +7,6 @@ get_prop(platform_app, vendor_displayfeature_prop)
 # FPS info
 allow platform_app vendor_sysfs_graphics:dir search;
 allow platform_app vendor_sysfs_graphics:file r_file_perms;
+
+# FastRPC / DSP access for bokeh (com.miui.extraphoto)
+allow platform_app adsprpcd_file:dir  { getattr read open search };
