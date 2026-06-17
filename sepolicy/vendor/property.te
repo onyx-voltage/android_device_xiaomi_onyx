@@ -38,3 +38,7 @@ vendor_public_prop(vendor_thermal_normal_prop)
 vendor_public_prop(vendor_panel_info_prop)
 vendor_restricted_prop(vendor_touch_hostprocess_prop)
 vendor_restricted_prop(vendor_touchfeature_prop)
+
+
+# FastRPC
+vendor_public_prop(vendor_fastrpc_prop)
